@@ -1,0 +1,811 @@
+.body {
+  padding: 0;
+  margin: 0;
+}
+
+.h1 .h2 .h3 .h4 .h5.h6 {
+  font-size: "Playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/*header section start*/
+/*header section start*/
+
+#header {
+  width: 100%;
+  display: block;
+}
+
+.main-header-col {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: -5px;
+  text-align: center;
+  background-color: #025048;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header-sec {
+  width: 40%;
+  float: left;
+  display: block;
+  margin-left: -60px;
+}
+
+.header-sec a {
+  color: white;
+  font-size: 25px;
+}
+.header-sec span {
+  color: rgb(9, 178, 164);
+  text-decoration-line: underline;
+}
+
+.nav {
+  width: 40%;
+  display: block;
+  float: left;
+  padding-top: 9px;
+}
+
+.nav ul {
+  width: 100%;
+  margin-left: -50px;
+}
+
+.nav ul li a {
+  padding: 0px 53px 0px 0px;
+  color: white;
+}
+
+.add-cart {
+  width: 20%;
+  display: block;
+  float: left;
+  padding-top: 9px;
+}
+
+.add-cart a {
+  color: white;
+  font-size: 20px;
+}
+
+/*css for selecct*/
+#demo {
+  width: 6%;
+  padding: 5px 6px 5px 6px;
+  margin: 0px -91px 0px 34px;
+  border-radius: 5px;
+  border: none;
+}
+
+#search input {
+  padding: 5px 6px 5px 6px;
+  margin: 0px -10px 0px 34px;
+  border-radius: 5px;
+  border: none;
+}
+
+.search input {
+  width: 11%;
+  position: absolute;
+  padding: 5px 6px 5px 6px;
+  border-radius: 12px;
+  border: none;
+  color: #025048;
+  margin: -21px 1px 1px 160px;
+}
+
+/*header section end*/
+/*header section end*/
+
+/*banner section start*/
+/*banner section start*/
+
+.banner-area {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.banner-area-col {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 90px;
+  background-color: #025048;
+  height: 574px;
+}
+
+.baneerrr {
+  width: 50%;
+  display: block;
+  float: left;
+  padding-top: 50px;
+}
+
+.baneerrr h2 {
+  color: white;
+  font-size: 57px;
+  width: 61%;
+  /* text-align: justify; */
+  padding-left: 92px;
+  padding-bottom: 22px;
+  font-weight: 700;
+  padding-top: 190px;
+}
+
+.baneerrr p {
+  color: white;
+  font-size: 17px;
+  width: 69%;
+  text-align: justify;
+  padding-left: 92px;
+}
+.banner-img {
+  width: 50%;
+  float: left;
+}
+.banner-img img {
+  width: 62%;
+  padding-left: 180px;
+  height: 472px;
+  padding-top: 166px;
+}
+
+/*banner section end*/
+/*banner section end*/
+
+.WELCOME-TO-CERAMIC-SHOP {
+  width: 100%;
+  display: block;
+  float: left;
+  margin-top: -100px;
+}
+
+.ceramic-shop {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 15%;
+}
+.shop {
+  width: 46%;
+  display: block;
+  float: left;
+  padding-top: 50px;
+  padding-left: 121px;
+  padding-bottom: 13%;
+}
+
+.shop H4 {
+  color: #025048;
+  padding-bottom: 10px;
+}
+
+.shop h2 {
+  font-size: 42px;
+  width: 76%;
+  /* text-align: justify; */
+  text-align: justify;
+  padding-bottom: 22px;
+  font-weight: 700;
+  padding-top: 12px;
+  color: #025048;
+  line-height: 1.5;
+}
+
+.about-text {
+  width: 46%;
+  display: block;
+  float: left;
+}
+.about-text p {
+  font-size: 18px;
+  width: 75%;
+  padding-top: 42px;
+  line-height: 1.5;
+  color: #746f6f;
+}
+
+.imge-cermic-shop {
+  width: 100%;
+  display: block;
+  float: left;
+  background-color: azure;
+  height: 700px;
+  padding-top: 40px;
+}
+
+.imge-cermic-shop img {
+  padding: 0px 0px 0px 189px;
+  width: 80%;
+  height: 595px;
+  margin-top: -10%;
+}
+
+/*-OUR JOURNEY start section-->*/
+.OUR-JOURNEY {
+  width: 100%;
+  display: block;
+  float: left;
+  background-color: azure;
+  margin-top: -172px;
+}
+
+.OUR-JOURNEY-sec {
+  width: 100%;
+  display: block;
+  float: left;
+  margin-top: 0%;
+  background-color: azure;
+  height: 700px;
+  
+
+
+}
+
+.OUR-JOURNEY-cl {
+  width: 45%;
+  display: block;
+  float: left;
+}
+
+.OUR-JOURNEY-cl img {
+  margin: 94px 0px 0px 181px;
+  padding-top: 20px;
+  width: 70%;
+}
+
+.our-journey-text-sec {
+  width: 50%;
+  display: block;
+  float: left;
+  margin-left: 75px;
+}
+.our-journey-text-sec h4 {
+  margin: 94px 0px 0px 0px;
+  font-size: 20px;
+  color: #025048; 
+}
+
+.our-journey-text-sec h2 {
+  margin: 34px 0px 0px 0px;
+  font-size: 40px;
+  width: 50%;
+  letter-spacing: 0px;
+  color: #025048;
+}
+
+.our-journey-text-sec p {
+  margin: 39px 0px 0px 0px;
+  width: 64%;
+  font-size: 17px;
+  color: #746f6f;
+}
+/*<!--Our Vision section start-->*/
+.Our-Vision{
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 115px;
+  padding-bottom: 99px;
+}
+.our-vision-sec{
+  width: 100%;
+  display:  block;
+  float: left;
+}
+.container-our{
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+  padding: auto;
+}
+.our-vision-col{
+  width: 50%;
+  display: block;
+  float: left;
+}
+.our-vision-col h3{
+  color: #025048;
+  padding-bottom: 20px;
+  font-size: 30px;
+
+}
+.our-vision-col p{
+  color: #746f6f;
+    font-size: 20px;
+    width: 95%;
+}
+
+
+
+.our-vision-col-2{
+  width: 50%;
+  display: block;
+  float: left;
+
+}
+.our-vision-col-2 h3{
+  color: #025048;
+  padding-bottom: 20px;
+  font-size: 30px;
+
+}
+.our-vision-col-2 p{
+  color: #746f6f;
+    font-size: 20px;
+    width: 95%;
+}
+  
+
+.imges-and-text-50-50 {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.col-imges {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.col-imges img {
+  width: 100%;
+  height: 300px;
+}
+
+.col-text {
+  width: 50%;
+  display: block;
+  float: left;
+  background-color: #025048;
+  height: 300px;
+}
+
+.col-text h3 {
+  color: white;
+  padding: 108px 0px 50px 59px;
+  font-size: 30px;
+}
+
+.col-text a {
+  color: white;
+  padding: 16px 25px 16px 25px;
+  font-size: 15px;
+  border: 1px solid rgb(236, 235, 233);
+  margin-left: 65px;
+}
+
+/*customer feedback area end*/
+/*footer area start*/
+
+.footer-sec {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 40px;
+  text-align: center;
+  background-color: #f1f4f1;
+  padding-bottom: 40px;
+}
+
+.footer-area {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.footer-logo {
+  width: 20%;
+  display: block;
+  float: left;
+}
+
+.footer-logo a {
+  color: #025048;
+  font-size: 30px;
+}
+
+.nav-footer {
+  width: 60%;
+  display: block;
+  float: left;
+}
+
+.nav-footer ul li a {
+  color: #025048;
+  font-size: 15px;
+  padding: 0px 20px 0px 20px;
+}
+.social-media-nav {
+  width: 20%;
+  display: block;
+  float: left;
+}
+.nav-footer ul {
+  margin-top: 13px;
+}
+
+.social-media-nav i {
+  font-size: 20px;
+  color: #025048;
+  padding: 4px 16px 6px 11px;
+  margin-top: 9px;
+}
+
+/*footer area end By Adesh*/
+
+/*footer bottom start*/
+.footer-bottom {
+  width: 100%;
+  display: block;
+  float: left;
+}
+.copywrite-area {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 40px;
+  background-color: #f1f4f1;
+  margin-bottom: 11px;
+  margin-top: 0;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  width: 50%;
+  display: block;
+  float: left;
+}
+.copyright ul {
+  padding-left: 60px;
+  color: #025048;
+  font-size: 20px;
+}
+.copyrigt-area2 {
+  width: 50%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.copyrigt-area2 ul {
+  padding-left: 278px;
+  color: #025048;
+  font-size: 20px;
+}
+
+hr {
+  color: #025048;
+}
+
+/*footer bootom end*/
+/*Design By Adesh Rajak*/
+/*css for top pop*/
+
+
+#top-pop-area{
+  position: fixed;
+  display: none;
+
+}
+
+.top-pop {
+  width: 100%;
+    float: left;
+    /* padding-top: 65px; */
+    height: 730px;
+    z-index: 100;
+    background-color: #424b4a73;  
+
+ 
+}
+.container-top-pop{
+  width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+  width: 100%;
+  padding-top: 0px;
+  height: 400px;
+  margin-top: 13%;
+  border-radius: 10px;
+  background-color: azure;
+  margin-left: 30px;
+}
+
+.top h2 {
+  font-size: 37px;
+  padding-left: 32px;
+  letter-spacing: 1.5px;
+  padding-top: 20px;
+  /* padding-left: 170px; */
+  font-family: "Work Sans", sans-serif;
+  color: #025048;
+  /* font-size: 40px; */
+  padding-bottom: 0px;
+  text-align: CENTER;
+  padding-top: 45px;
+  border-radius: 8px;
+}
+
+.top p {
+ 
+  letter-spacing: 1.5px;
+  padding-bottom: 37px;
+  padding-top: 15px;
+  padding-left: 170px;
+  font-family: "Work Sans", sans-serif;
+  color: #025048;
+  line-height: 1.5;
+  margin-left: 22%;
+  font-size: 19px;
+}
+
+.top A {
+  padding: 15px 30px 15px 30px;
+  border: 1px SOLID black;
+  font-size: 18px;
+  color: #025048;
+  margin-left: 43%;
+}
+
+.button a{
+  padding: 0px 30px 0px 30px;
+  font-size: 18px;
+  color: #025048;
+  margin-left: 93%;
+border: none;}
+
+.button a i{
+  padding-top: 12px;
+}
+
+/*css for top pop*/
+
+
+@media screen and (min-width: 320px) and (max-width: 667px) {
+  #header {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .main-header-col {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .header-sec {
+    width: 50%;
+    display: block;
+    float: left;
+    padding-top: 11px;
+  }
+  .banner-area-col {
+    width: 352%;
+    display: block;
+    float: left;
+  }
+  .nav {
+    display: none;
+  }
+  #searchinputjavascript {
+    display: none;
+  }
+  #cars {
+    display: none;
+  }
+
+  .add-cart {
+    display: none;
+  }
+
+  #searchinput input {
+    display: none;
+  }
+  .baneerrr {
+    width: 50%;
+  }
+  .baneerrr h5 {
+    font-size: 25px;
+    letter-spacing: 1.5px;
+  }
+  .baneerrr h2 {
+    width: 100%;
+  }
+
+  .banner-img {
+    width: 50%;
+  }
+  .banner-img2 {
+    width: 46%;
+  }
+  .banner-area {
+    width: 114%;
+  }
+  .button-shop {
+    width: 11%;
+  }
+  .WELCOME-TO-CERAMIC-SHOP {
+    width: 100%;
+  }
+
+  .ceramic-shop {
+    width: 100%;
+  }
+  .shop {
+    width: 100%;
+  }
+
+  .shop h4 {
+    padding-top: 60px;
+    font-size: 25px;
+  }
+  .shop h2 {
+    width: 290%;
+  }
+
+  .imges-section {
+    width: 100%;
+  }
+  .ceramic-shop-image {
+    width: 100%;
+    float: left;
+    display: block;
+  }
+
+  .shop-1 {
+    width: 100%;
+    float: left;
+    display: block;
+    margin: -43rem 24px 1px 47rem;
+  }
+  .images-sec-col img {
+    width: 140%;
+  }
+
+  .product-sec-area {
+    width: 380%;
+  }
+  .home-decor {
+    width: 126%;
+  }
+
+  .home-decor h2 {
+    font-size: 27px;
+  }
+
+  .home-decor p {
+    font-size: 20px;
+  }
+
+  .home-decor2 {
+    width: 126%;
+  }
+
+  .home-decor2 h2 {
+    font-size: 27px;
+  }
+
+  .home-decor2 p {
+    font-size: 20px;
+  }
+  .home-decor3 {
+    width: 126%;
+  }
+
+  .home-decor3 h2 {
+    font-size: 27px;
+  }
+
+  .home-decor3 p {
+    font-size: 20px;
+  }
+
+  .popular-item {
+    width: 100%;
+  }
+  .popular-item {
+    width: 300%;
+  }
+
+  .popular-images {
+    width: 367%;
+  }
+  .dropdown-content {
+    margin-left: 19rem;
+  }
+
+  .popular {
+    width: 100%;
+  }
+
+  .collection {
+    width: 375%;
+  }
+  .backround-img-box12 {
+    width: 285%;
+    margin-left: -1.2rem;
+  }
+
+  .treanding {
+    width: 200%;
+  }
+
+  .treanding p {
+    font-size: 30px;
+  }
+
+  .treanding-img-area {
+    width: 339%;
+  }
+  .customer-feedback {
+    width: 380%;
+    display: block;
+  }
+
+  .feedback p {
+    font-size: 25px;
+    margin-left: -10rem;
+  }
+  .customer-massage {
+    width: 100%;
+  }
+  .massges {
+    width: 150%;
+    margin-left: 215px;
+    font-size: 20px;
+  }
+
+  .massges1 {
+    width: 150%;
+    margin-left: 52rem;
+    font-size: 20px;
+  }
+
+  .footer-sec {
+    width: 380%;
+  }
+
+  .footer-bottom {
+    width: 380%;
+  }
+  .copywrite-area {
+    width: 100%;
+  }

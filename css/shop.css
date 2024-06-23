@@ -1,0 +1,407 @@
+.body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .h1 .h2 .h3 .h4 .h5.h6 {
+    font-size: "Playfair Display", serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  /*header section start*/
+  /*header section start*/
+  
+  #header {
+    width: 100%;
+    display: block;
+  }
+  
+  .main-header-col {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: -5px;
+    text-align: center;
+    background-color: #025048;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .header-sec {
+    width: 40%;
+    float: left;
+    display: block;
+    margin-left: -60px;
+  }
+  
+  .header-sec a {
+    color: white;
+    font-size: 25px;
+  }
+  .header-sec span {
+    color: rgb(9, 178, 164);
+    text-decoration-line: underline;
+  }
+  
+  .nav {
+    width: 40%;
+    display: block;
+    float: left;
+    padding-top: 9px;
+  }
+  
+  .nav ul {
+    width: 100%;
+    margin-left: -50px;
+  }
+  
+  .nav ul li a {
+    padding: 0px 53px 0px 0px;
+    color: white;
+  }
+  
+  .add-cart {
+    width: 20%;
+    display: block;
+    float: left;
+    padding-top: 9px;
+  }
+  
+  .add-cart a {
+    color: white;
+    font-size: 20px;
+  }
+  
+  /*css for selecct*/
+  #demo {
+    width: 6%;
+    padding: 5px 6px 5px 6px;
+    margin: 0px -91px 0px 34px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #search input {
+    padding: 5px 6px 5px 6px;
+    margin: 0px -10px 0px 34px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .search input {
+    width: 11%;
+    position: absolute;
+    padding: 5px 6px 5px 6px;
+    border-radius: 12px;
+    border: none;
+    color: #025048;
+    margin: -21px 1px 1px 160px;
+  }
+  
+  /*header section end*/
+  /*header section end*/
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/*<!--most popular item and price section start......-->*/
+
+.popular-item {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 11%;
+}
+
+.popular-item-area-col {
+  width: 78%;
+  display: block;
+  float: left;
+  text-align: justify;
+  padding-left: 170px;
+}
+
+.popular-item-area-col h2 {
+  font-size: 60px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #025048;
+  letter-spacing: 1.5px;
+}
+.popular-item-area-col h3 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #025048;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+/*<!--most popular item and price section start......-->*/
+
+/*<!--popular-imagess section start-->
+    <!--popular-imagess section first row start-->*/
+.popular-images {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.popular {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.container-popular {
+  width: 100%;
+  display: block;
+  max-width: 1170px;
+  margin: auto;
+  padding: 0;
+}
+.popular-section {
+  width: 30%;
+  display: block;
+  float: left;
+  margin-left: 39px;
+  overflow:hidden;
+}
+.popular-section img {
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 104%;
+}
+
+.div1 {
+  padding-left: 10px;
+}
+
+.div1 h5 .discount {
+  text-decoration: line-through;
+}
+.div1 h5 span {
+  color: black;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.div1 h3 {
+  color: #025048;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.dropdown-content i {
+  color: #025048;
+  font-size: 23px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 24px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 9px 12px;
+  z-index: 1;
+  color: black;
+  border-radius: 10px;
+  margin-top: -454px;
+  margin-left: 21%;
+}
+
+.popular-section:hover .dropdown-content {
+  display: block;
+ 
+}
+
+.popular-section:hover img {
+  transform: scale(1.1);
+  transition: .5s ease;
+ 
+}
+
+.popular-section a {
+  color: black;
+  padding: 4px 14px 4px 14px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  margin: -449px 0px 0px 21px;
+}
+.div1 p {
+  color: darkgray;
+}
+.div1 h5 {
+  color: darkgray;
+  font-weight: bold;
+}
+
+.div1 i {
+  color: #6b6b66;
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+/*<!--popular-imagess section first row end-->*/
+/*<!--popular-imagess section end-->*/
+/*footer area start*/
+
+.footer-sec {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 40px;
+  text-align: center;
+  background-color: #f1f4f1;
+  padding-bottom: 40px;
+}
+
+.footer-area {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.footer-logo {
+  width: 20%;
+  display: block;
+  float: left;
+}
+
+.footer-logo a {
+  color: #025048;
+  font-size: 30px;
+}
+
+.nav-footer {
+  width: 60%;
+  display: block;
+  float: left;
+}
+
+.nav-footer ul li a {
+  color: #025048;
+  font-size: 15px;
+  padding: 0px 20px 0px 20px;
+}
+.social-media-nav {
+  width: 20%;
+  display: block;
+  float: left;
+}
+.nav-footer ul {
+  margin-top: 13px;
+}
+
+.social-media-nav i {
+  font-size: 20px;
+  color: #025048;
+  padding: 4px 16px 6px 11px;
+  margin-top: 9px;
+}
+
+/*footer area end By Adesh*/
+
+/*footer bottom start*/
+.footer-bottom {
+  width: 100%;
+  display: block;
+  float: left;
+}
+.copywrite-area {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 40px;
+  background-color: #f1f4f1;
+  margin-bottom: 11px;
+  margin-top: 0;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  width: 50%;
+  display: block;
+  float: left;
+}
+.copyright ul {
+  padding-left: 60px;
+  color: #025048;
+  font-size: 20px;
+}
+.copyrigt-area2 {
+  width: 50%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.copyrigt-area2 ul {
+  padding-left: 278px;
+  color: #025048;
+  font-size: 20px;
+}
+
+hr {
+  color: #025048;
+}
+
+/*footer bootom end*/
